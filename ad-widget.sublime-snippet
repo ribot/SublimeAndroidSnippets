@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+public class ${1:CustomView} extends ${2:View} {
+    public ${1:CustomView}(Context context) {
+        super(context);
+    }
+
+    public ${1:CustomView}(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public ${1:CustomView}(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+}
+
+]]></content>
+    <tabTrigger>ad-widget</tabTrigger>
+    <scope>source.java</scope>
+</snippet>
