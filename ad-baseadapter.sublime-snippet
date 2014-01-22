@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+public class ${1:Custom}Adapter extends BaseAdapter {
+    private Context context;
+    private LayoutInflater inflater;
+
+    public ${1:CustomAdapter}(Context context) {
+        this.context = context;
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    @Override
+    public int getCount() {
+        // TODO: Stub
+    }
+
+    @Override
+    public Profile getItem(int position) {
+        // TODO: Stub
+    }
+
+    @Override
+    public long getItemId(int position) {
+        // TODO: Stub
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.${2:layout_name}, parent, false);
+
+            holder = new ViewHolder();
+            holder.text = (TextView) convertView.findViewById(R.id.text);
+            convertView.setTag(holder);
+        }
+        else {
+            holder = (ViewHolder) convertView.getTag();
+        }
+
+        return convertView;
+    }
+
+    private class ViewHolder {
+        public TextView text;
+    }
+}
+]]></content>
+    <tabTrigger>ad-baseadapter</tabTrigger>
+    <scope>source.java</scope>
+</snippet>
