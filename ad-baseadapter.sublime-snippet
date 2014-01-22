@@ -15,7 +15,7 @@ public class ${1:Custom}Adapter extends BaseAdapter {
     }
 
     @Override
-    public Profile getItem(int position) {
+    public Object getItem(int position) {
         // TODO: Stub
     }
 
