@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Log.d("${1:tag}","${2:message}");
+Log.d("${1:tag}", "${2:message}");
 ]]></content>
     <tabTrigger>ad-logdebug</tabTrigger>
     <scope>source.java</scope>
