@@ -4,7 +4,7 @@ public class ${1:Custom}Adapter extends BaseAdapter {
     private Context context;
     private LayoutInflater inflater;
 
-    public ${1:CustomAdapter}(Context context) {
+    public ${1:Custom}Adapter(Context context) {
         this.context = context;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
