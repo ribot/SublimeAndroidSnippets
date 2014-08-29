@@ -5,10 +5,12 @@ These snippets are designed to make it quicker and easier to create Android apps
 
 Avaliable Snippets
 ------------------
-
  - `ad-baseadapter` A stub BaseAdapter implementation which uses the [view holder pettern](http://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder)
  - `ad-logdebug` Debug log with a message
  - `ad-widget` The basics needed to get started with creating a custom widget
+ - `ad-toast` Create and display a toast
+ - `<TextView` A basic TextView
+ - `<EditText` A basic EditText 
 
 Recommended Installation
 ------------------------
