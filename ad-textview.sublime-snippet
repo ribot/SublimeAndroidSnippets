@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+TextView
+  android:id="@+id/${1:textview_id}"
+	android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/${2:text}"
+  />
+]]></content>
+	<tabTrigger>TextView</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

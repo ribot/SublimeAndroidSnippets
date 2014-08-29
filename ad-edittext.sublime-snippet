@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<EditText
+	android:id="@+id/${1:edittext_id}"
+	android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:hint="@string/${2:hint}"
+  android:inputType="text"
+  />
+]]></content>
+	<tabTrigger>EditText</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>
