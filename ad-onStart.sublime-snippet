@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@Override
+protected void onStart() {
+	super.onStart();
+
+	${1}
+}
+]]></content>
+	<tabTrigger>ad-onStart</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
