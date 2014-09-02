@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@Override
+protected void onResume() {
+	super.onResume();
+
+	${1}
+}
+]]></content>
+	<tabTrigger>ad-onResume</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
