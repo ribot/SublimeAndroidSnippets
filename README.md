@@ -11,6 +11,14 @@ Avaliable Snippets
  - `ad-toast` Create and display a toast
  - `<TextView` A basic TextView
  - `<EditText` A basic EditText 
+ - `ad-assertOnScreen` Check that a view on on the screen
+ - `ad-onActivityResult` The onActivityResult activity method
+ - `ad-onCreate` The onCreate activity method
+ - `ad-onDestroy` The onDestroy activity method
+ - `ad-onPause` The onPause activity method
+ - `ad-onResume` The onResume activity method
+ - `ad-onStart` The onStart activity method
+ - `ad-onStop` The onStop activity method
 
 Recommended Installation
 ------------------------
