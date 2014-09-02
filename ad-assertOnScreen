@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Assert that ${1:ViewID} is on screen
+ */
+public void testOnScreen_${1:ViewID}() {
+	View view = mActivity.findViewById(R.id.${1:ViewID});
+	ViewAsserts.assertOnScreen(view.getRootView(), view);
+}
+]]>
+	</content>
+	<tabTrigger>ad-assert-on-screen</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
