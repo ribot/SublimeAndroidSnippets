@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@Override
+protected void onDestroy() {
+	super.onDestroy();
+
+	${1}
+}
+]]></content>
+	<tabTrigger>ad-onDestroy</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
