@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@Override
+protected void onStop() {
+	super.onStop();
+
+	${1}
+}
+]]></content>
+	<tabTrigger>ad-onStop</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
